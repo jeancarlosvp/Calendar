@@ -134,12 +134,12 @@ Sun Nov 21                No events
 list | create | show | update | delete | next | prev
 
 action: create
-	  	  date: 2021-11-20
-		   title: Push extended project!
-	  calendar: tech
-   start_end: 23:00 23:30
-			 notes: Don't forget to push our final work to the main branch
-      guests: Diego, Codeka
+date: 2021-11-20
+title: Push extended project!
+calendar: tech
+start_end: 23:00 23:30
+notes: Don't forget to push our final work to the main branch
+guests: Diego, Codeka
 ------------------------------------------------------------------------------
 list | create | show | update | delete | next | prev
 
@@ -155,9 +155,9 @@ When the user doesn't input a date:
 list | create | show | update | delete | next | prev
 
 action: create
-	  	  date: 
-							Type a valid date: YYYY-MM-DD
-				date: 2021-11-20
+date: 
+Type a valid date: YYYY-MM-DD
+date: 2021-11-20
 ```
 
 When the user doesn't input a title:
@@ -167,10 +167,10 @@ When the user doesn't input a title:
 list | create | show | update | delete | next | prev
 
 action: create
-				date: 2021-11-20
-			 title: 
-							Cannot be blank
-			 title: My new event
+date: 2021-11-20
+title: 
+Cannot be blank
+title: My new event
 ```
 
 When the user input a invalid start_end:
@@ -180,15 +180,15 @@ When the user input a invalid start_end:
 list | create | show | update | delete | next | prev
 
 action: create
-				date: 2021-11-20
-			 title: My new event
-			 title: My new event
-		calendar: optional calendar
-	 start_end: 11:00
-							Format: 'HH:MM HH:MM' or leave it empty
-	 start_end: 11:00 09:00
-							Cannot end before start
-	 start_end: 11:00 15:00
+date: 2021-11-20
+title: My new event
+title: My new event
+calendar: optional calendar
+start_end: 11:00
+Format: 'HH:MM HH:MM' or leave it empty
+start_end: 11:00 09:00
+Cannot end before start
+start_end: 11:00 15:00
 ```
 
 ### List events
@@ -304,23 +304,23 @@ list | create | show | update | delete | next | prev
 
 action: update
 Event ID: 13
-	  	  date: 2021-11-20
-		   title: Push extended project updated!
-	  calendar: tech
-   start_end: 23:00 23:30
-			 notes: Don't forget to push our final work to the main branch
-      guests: Diego, Codeka, Teddy
+date: 2021-11-20
+title: Push extended project updated!
+calendar: tech
+start_end: 23:00 23:30
+notes: Don't forget to push our final work to the main branch
+guests: Diego, Codeka, Teddy
 ------------------------------------------------------------------------------
 list | create | show | update | delete | next | prev
 
 action: show
 Event ID: 13
-	  	  date: 2021-11-20
-		   title: Push extended project updated!
-	  calendar: tech
-   start_end: 23:00-23:30
-			 notes: Don't forget to push our final work to the main branch
-      guests: Diego, Codeka, Teddy
+date: 2021-11-20
+title: Push extended project updated!
+calendar: tech
+start_end: 23:00-23:30
+notes: Don't forget to push our final work to the main branch
+guests: Diego, Codeka, Teddy
 ------------------------------------------------------------------------------
 list | create | show | update | delete | next | prev
 
