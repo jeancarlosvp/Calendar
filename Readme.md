@@ -23,14 +23,6 @@ handle **Dates,** a data type that is part of the Ruby standard library.
 
 [DateTime documentation](https://ruby-doc.org/stdlib-2.7.2/libdoc/date/rdoc/DateTime.html)
 
-## Teams
-
-Find your team: [here](https://airtable.com/shrELT7ccMzd2PxKI/tbljx6RuWPsBRvYJN)
-
-<aside> 💡 Remember! 1 member of the team creates the team and the rest can
-join. The name of the team is up to you but **it should start** with **w1ex-**
-</aside>
-
 ## Happy paths
 
 The happy-path is the most obvious path your user is expected to take through an
@@ -275,12 +267,12 @@ list | create | show | update | delete | next | prev
 
 action: show
 Event ID: 13
-	  	  date: 2021-11-20
-		   title: Push extended project!
-	  calendar: tech
-   start_end: 23:00 23:30
-			 notes: Don't forget to push our final work to the main branch
-      guests: Diego, Codeka
+date: 2021-11-20
+title: Push extended project!
+calendar: tech
+start_end: 23:00 23:30
+notes: Don't forget to push our final work to the main branch
+guests: Diego, Codeka
 ------------------------------------------------------------------------------
 list | create | show | update | delete | next | prev
 
